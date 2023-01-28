@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/design/style.css">
+<!-- <link rel="stylesheet" href="/design/reset.css"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/vue@next"></script>
+    <title>ScanDal Store</title>
+</head>
+
+<body>
+    <header class="head" id="app">
+        <nav id="main-nav">
+           <div class="logo-holder">
+            <img src="/Images/Logo.png" class="logo-img">
+           </div>
+           <div>
+            <h1 class="NameStock">SCANDAL STORE</h1>
+            
+           </div>
+            <ul id="main-menu">
+                <li class="main-items"><a href="/index.html">Главное</a></li>
+                <li class="main-items"><a href="#">Связаться с нами</a></li>
+                <li class="main-items"><a href="#">Достижения</a></li>
+                <li class="main-items"><a href="#">{{message}}</a></li>
+            </ul>
+        </nav>
+    <header class="backhead"></header>
+
+    </header>
+<!--    COVER          -->
+
+<section class="cover">
+    <div class="cover-dimmer">
+        <h1 class="namecover">
+            Лучшие комплектующие для ПК
+        </h1>
+        <p class="description">Описание</p>
+        <button class="but-cover">Заказать</button>
+    </div>
+</section>
+<!-- Services  -->
+
+<section class="Services">
+    <h2 class="h2-1">К вашим услугам</h2>
+    <p class="subhelder"> </p>
+    <section class="container-a">
+
+    <div class="service">
+            <h3 class="service-title">Заказ комплектующих</h3>
+            <img src="/Images/mainpic.jpg" class="minipic">
+            <p class="description-1">Заказ редких комплектующих</p>
+                <button class="btn-service">Заказать</button>
+            </div>
+        </div>
+      
+
+        <div class="service">
+            <h3 class="service-title">Сборка на месте</h3>
+            <img src="/Images/mainpic.jpg" class="minipic">
+            <p class="description-1">Заказ редких комплектующих</p>
+                <button class="btn-service">Заказать</button>
+            </div>
+        </div>
+      
+
+        <div class="service">
+            <h3 class="service-title">Самовывоз из склада</h3>
+            <img src="/Images/mainpic.jpg" class="minipic">
+            <p class="description-1">Заказ редких комплектующих</p>
+                <button class="btn-service">Заказать</button>
+            </div>
+        </div>
+    </section>
+ </section>
+
+  <!--CLEARFLOAT-->
+
+ <div class="clearfloat"></div>
+
+ <!-- MORE INFO -->
+
+ <section class="moreinfo">
+    <div class="dimmer">
+        <h2>У нас есть все ответы</h2>
+        <p class="description">Скажи куда тебе их Отправить</p>
+        <div class="formholder"><div class="forma-text">
+                <h3>Подпишитесь на рассылку</h3>
+                <p>мы с радостью будем засорять вашу почту</p>
+            </div><div class="forma">
+               <form action="input-e">
+                <input type="text" placeholder="Введите свое Имя">
+                <br>
+                <input type="text" placeholder="Введите свой e-mail">
+                <br>
+                <input type="submit" value="Отправить" class="subBtn" >
+
+               </form>
+            </div>
+        </div>
+      
+    </div>
+</section>
+    <!-- FOOTER -->
+<footer>
+    <table class="footer-table">
+        <tr>
+            <td><img src="/Images/Logo.png" class="logo-botton"><div class="slogan-botton">Главное</div></td>
+
+
+            <td>Наши каналы<br><a href="#">Discord</a><br><a href="#">Twitter</a><br><a href="#">VK</a></td>
+
+
+            <td>Контакты:<br>Тюмень Минская 45<br>E-mail:scandalist72w@gmail.com<br></td>
+
+        </tr>
+    </table>
+</footer>
+
+ </body>
+
+ <script src="/VueJS/Func.js"></script>
+
+</html>

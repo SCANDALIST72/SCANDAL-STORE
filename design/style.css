@@ -1,0 +1,213 @@
+/* Gloval settings */
+*{margin: 0;padding: 0;}
+body{font-family: sans-serif;background-image: url(/Images/mainpic2.jpg);}
+
+/* Header */
+#main-nav{
+background-image: url(/Images/mainpic2.jpg);
+height: 14vh;
+text-align: right;
+}
+.logo-holder{
+    float: left;
+    text-align: left;
+}
+.logo-img{
+    width: 85%;
+    background-color:rgba(37, 18, 205, 0.251);
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+#main-menu{list-style: none;}
+
+.main-items{
+    display: inline-block;
+    width: 150px;
+}
+
+
+.main-items a {
+    color: lightseagreen;
+    text-decoration: none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.462);
+    border-radius: 30px;
+    display: inline-block;
+
+}
+.main-items a:hover {background-color: rgba(5, 142, 176, 0.673);}
+.NameStock{
+    color: lightseagreen;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.556);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    border-radius: 30px;
+}
+/* Cover */
+.cover{
+    background-image: url(/Images/cover-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: lightseagreen;
+    padding: 100px 20%;
+}
+.cover-dimmer{
+    background: rgba(0, 0, 0, 0.697);
+    padding: 40px;
+    text-align: center;
+}
+.namecover{
+    font-family: fantasy;
+}
+.but-cover{
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.652);
+    font-weight: bold;
+    color: lightseagreen;
+    border: 0;
+    margin: rem;
+    font-size: x-large;
+}
+/* Services */
+.Services{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    text-align: center;
+}
+.h2-1{
+    text-align: center;
+    /* padding-bottom: 0.5rem; */
+    font-size: 3rem;
+    color: lightseagreen;
+    font-family: fantasy;
+}
+
+.subhelder{
+padding-bottom: 3rem;
+}    
+
+.service{
+    float: left;
+    width: 30%;
+    border: solid 1px rgba(32, 178, 171, 0.536);
+    margin: 1%;
+    padding: 2%;
+}
+
+.minipic{
+    width: 100%;
+}
+
+.btn-service{
+    padding: .5rem;
+    font-size: 0.9rem;
+   color: lightseagreen;
+   background-color: rgba(0, 0, 0, 0.544);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    border: 0;
+}
+.service-title{
+    color: lightseagreen;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+.description-1{
+    color: rgb(6, 162, 162);
+    margin: .8rem 0;
+}
+/* CLEAR FLOAT */
+.clearfloat{
+    background-color: rgba(0, 0, 0, 0.507);
+    /* height: 40px; */
+    clear: both;
+    
+}
+/* Temp */
+.cointainer-a{
+background-color: aqua;
+height: 200px;
+margin-bottom: 100px;
+}
+/* MORE INFO */
+.moreinfo{
+    margin-top: 4rem;
+    background-image: url(/Images/cover-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+    background-position: 0 -100px;
+    color: lightseagreen;
+}
+.dimmer{
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.645);
+    text-align: center;
+}
+.formholder{
+    width: 80%;
+    margin: auto;
+}
+.forma-text{
+    margin-left: 10%;
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+    
+}
+.forma{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+input{
+    margin: 6px 0px 6px 20px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.581);
+    color: lightseagreen;
+    width: 60%;
+}
+.subBtn{
+    width: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* FOOTER*/
+
+footer{
+    padding: 3rem 0;
+    background-color: rgba(0, 0, 0, 0.585);
+}
+.footer-table{
+    width: 80%;
+    margin: auto;
+    border: 0;
+}
+
+.footer-table td {
+    color: lightseagreen;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top;
+ }
+
+.logo-botton{
+    width: 100px;
+}
+.slogan-botton{
+    margin: 30px;
+    font-size: .7rem;
+
+}
