@@ -4,7 +4,7 @@ const App ={
         
         return{
             count: 0,
-            message: "адподолалода",
+            message: "адрес",
         }
 
     },
